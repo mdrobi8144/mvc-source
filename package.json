@@ -1,0 +1,30 @@
+{
+  "name": "php-mvc",
+  "version": "1.0.0",
+  "description": "This project for learn purpose",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx mix",
+    "watch": "npx mix watch",
+    "prod": "npx mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdrobi8144/php-mvc.git"
+  },
+  "author": "mdrabiul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdrobi8144/php-mvc/issues"
+  },
+  "homepage": "https://github.com/mdrobi8144/php-mvc#readme",
+  "devDependencies": {
+    "jquery": "^3.6.2",
+    "laravel-mix": "^6.0.49"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "autoprefixer": "10.4.5",
+    "bootstrap": "^5.2.3"
+  }
+}
