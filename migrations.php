@@ -1,6 +1,7 @@
 <?php
 
 use App\RobiMvc\Core\Application;
+use Robi\App\models\User;
 
 require __DIR__.'./vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
@@ -8,6 +9,7 @@ $dotenv->load();
 
 
 $config = [
+    'userClass' => User::class,
     'db' => [
         'dsn' => $_ENV['DB_DSN'],
         'db_user' => $_SERVER['DB_USER'],
